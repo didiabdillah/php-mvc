@@ -6,8 +6,9 @@
             <?php foreach ($data["mhs"] as $mhs) { ?>
                 <ul>
                     <li><?= $mhs["nama"]; ?></li>
-                    <li><?= $mhs["nim"]; ?></li>
-                    <li><?= $mhs["kelas"]; ?></li>
+                    <li><?= $mhs["npm"]; ?></li>
+                    <li><?= $mhs["email"]; ?></li>
+                    <li><?= $mhs["jurusan"]; ?></li>
                 </ul>
             <?php } ?>
 
