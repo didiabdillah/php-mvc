@@ -1,5 +1,11 @@
 <div class="container mt-3">
 
+    <div class="row">
+        <div class="col-lg-6">
+            <?php Flasher::flash(); ?>
+        </div>
+    </div>
+
     <div class="row mb-2">
         <div class="col-lg-6">
             <button type="button" class="btn btn-primary tombolTambahData" data-toggle="modal" data-target="#formModal">
