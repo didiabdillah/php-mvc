@@ -1,3 +1,3 @@
 <div class="container">
-    <p>Welcome To My Website</p>
+    <p>Welcome To <?= $data["nama"]; ?> Website</p>
 </div>
